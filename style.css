@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+J+Guides:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+ body{
+   font-family: "Merienda", serif;
+ }
+ .testimonials{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: #ddd;
+   margin: 7rem;
+ }
+ .testimonials h2{
+   font-size: 36px;
+ }
+ .border{
+   height: 3px;
+   width: 120px;
+   background: red;
+   margin: 15px 0 30px;
+ }
+ .testimonials .row{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+ }
+ .testimonials .row .col{
+   background: white;
+   margin: 0 1rem;
+   padding: 50px 20px;
+ }
+.testimonials .row .col img{
+   width: 100px;
+   border-radius: 50%;
+   margin-bottom: 15px;
+ }
+.testimonials .row .col h3{
+  font-size: 20px;
+} 
+.testimonials .row .col .stars{
+  margin: 15px 0;
+  color: red;
+}
+.testimonials .row .col p{
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 1.4;
+}
